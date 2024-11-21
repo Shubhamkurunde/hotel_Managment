@@ -1,0 +1,18 @@
+.container {
+    max-width: 100%;
+    background-image: url('/assets/backgroudpage.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 15px;
+  }
+  
+  .card {
+    border-radius: 10px;
+  }
+  
+  h3 {
+    font-weight: 600;
+  }
+  

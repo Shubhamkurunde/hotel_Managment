@@ -1,0 +1,134 @@
+<!-- <div class="sidebar">
+    <div class="sidebar-brand">
+        <h3><span class="lab la-accusoft"></span>Dashboard</h3>
+    </div>
+    <div class="sidebar-menu">
+        <ul>
+            <li>
+             <a class="active" >   <span class="las la-igloo"></span>
+                <span> Dashboard</span></a>
+            </li>
+            <li>
+                <a >   <span class="las la-igloo"></span>
+                   <span> Dashboard</span></a>
+               </li>
+               <li>
+                <a >   <span class="las la-igloo"></span>
+                   <span> Dashboard</span></a>
+               </li>
+               <li>
+                <a >   <span class="las la-igloo"></span>
+                   <span> Dashboard</span></a>
+               </li>
+               <li>
+                <a >   <span class="las la-igloo"></span>
+                   <span> Dashboard</span></a>
+               </li>
+        </ul>
+    </div>
+</div>
+
+<div class="main-content">
+    <header>
+        <h2>
+            <label for="">
+                <span class="las la-bars"></span>
+            </label>
+            Dashboard
+        </h2>
+        <div class="search-wrapper">
+            <span class="las la-search"></span>
+            <input type="search" placeholder="search here">
+        </div>
+        <div class="user-wrapper">
+            <img src="src/assets/backgroudpage.jpg"width="40px" height="40px" alt="">
+            <div>
+                <h4>John Doe</h4>
+                <small>Super Admin</small>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="card">
+            <div class="card-single">
+                <div>
+                    <h1>
+                        54
+                    </h1>
+                    <span>Customers</span>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</div> -->
+<div class="wrapper">
+    <aside id="sidebar" [class.collapsed]="isSidebarCollapsed">
+        <!-- content for side bar  -->
+         <div class="h-100">
+            <div class="sidebar-logo">
+                <a >SoftTrade</a>
+            </div>
+            <ul class="sidebar-nav">
+                <li class="sidebar-header">
+                    Admin Elements
+                </li>
+                <li class="sidebar-item">
+                    <a href="" class="sidebar-link">
+                        <i class="bi bi-house"></i>
+                        Dashboard
+                    </a>
+                </li>
+                <li class="sidebar-item">
+                    <a href="" class="sidebar-link">
+                        <i class="bi bi-house"></i>
+                        Dashboard
+                    </a>
+                </li>
+            </ul>
+         </div>
+    </aside>
+
+    <div class="main">
+        <nav class="navbar navbar-expand px-3 border-bottom">
+            <button class="btn"  (click)="toggleSidebar()"id="sidebar-toggle" type="button" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse navbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a href="" data-bs-toggle="dropdown" class="nav-icon pe-md-0">
+                            <img src="" alt="" class="avatar img-fluid rounded">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main class="content px-3 py-2">
+             <div class="container-fluid">
+                <div class="mb-3">
+                    <h4>Admin Dashboard</h4>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-6 d-flex">
+                        <div class="card flex-fill border-0 illustration">
+                            <div class="card-body p-0 d-flex flex-fill">
+                                <div class="row g-0 w-100">
+                                    <div class="col-6">
+                                        <div class="p-3 m-1">
+                                            <h4>Welcome Back, Admin </h4>
+                                            <p class="mb-0"> Admin Dashboard, Shubham</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 align-self-end text-end">
+                                        <img src="" alt="" class="img-fluid illustration-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        </main>
+    </div>
+</div>
